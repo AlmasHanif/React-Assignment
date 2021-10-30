@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import State from './components/State';
+// import MediaCard from './components/MediaCard';
+// import image from './image.jpg';
+// import Gate from './components/Gate';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <MediaCard title='i am title'  body={(<>i am <b><i>" body" </i></b></>)} image={image} />
+    <Gate IsOpen = {true} speed = {90} /> */}
+    <State />
+    </>
   );
 }
 
